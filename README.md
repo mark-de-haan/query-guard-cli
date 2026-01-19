@@ -34,7 +34,7 @@ Stop guessing who spent the budget. **Know.**
 ### Option 1: Using Pip
 ```bash
 pip install queryguard-cli
-````
+```
 
 ### Option 2: From Source (Poetry)
 ```bash
@@ -52,7 +52,7 @@ poetry install
 Ensure you are authenticated with Google Cloud:
 ```bash
 gcloud auth application-default login
-````
+```
 
 Run a forensic scan on your primary project for the last 7 days:
 ```bash
@@ -85,7 +85,7 @@ bqg scan -p my-data-warehouse --global --humans-only --days 30
 Audit a specific region for a deep dive
 ```bash
 bqg scan -p my-data-warehouse -r europe-west3
-````
+```
 
 ## 🤝 Contributing
 Contributions are welcome! Please check the issues page.
