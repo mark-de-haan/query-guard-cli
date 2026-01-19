@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "queryguard-cli"
+version = "0.1.0"
+description = "A BigQuery Cost Analysis CLI Tool"
+authors = ["Mark de Haan <markdehaan90@gmail.com>"]
+readme = "README.md"
+packages = [{include = "queryguard"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.21.1" 
+rich = "^14.2.0"
+google-cloud-bigquery = "^3.40.0"
+db-dtypes = "^1.2.0"
+
+[tool.poetry.scripts]
+bqg = "queryguard.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
