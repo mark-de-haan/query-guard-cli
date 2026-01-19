@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "queryguard-cli"
-version = "0.1.0"
+version = "0.2.0"
 description = "A BigQuery Cost Analysis CLI Tool"
 authors = ["Mark de Haan <markdehaan90@gmail.com>"]
 readme = "README.md"
