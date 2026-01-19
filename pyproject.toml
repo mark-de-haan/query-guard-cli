@@ -5,6 +5,17 @@ description = "A BigQuery Cost Analysis CLI Tool"
 authors = ["Mark de Haan <markdehaan90@gmail.com>"]
 readme = "README.md"
 packages = [{include = "queryguard"}]
+repository = "https://github.com/mark-de-haan/query-guard-cli"
+keywords = ["bigquery", "gcp", "cost-optimization", "finops", "cli"]
+classifiers = [
+    "Topic :: Database",
+    "Topic :: Utilities",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
