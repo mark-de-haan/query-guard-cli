@@ -64,4 +64,8 @@ class ForensicAuditor:
         if bytes_billed > (100 * 1024**3):
             risks.append("HEAVY SCAN")
 
+        # 4. FORCE_NO_CACHE
+        if "FORCE_NO_CACHE" in sql.upper():
+            risks.append("CACHE BYPASS")
+
         return risks
