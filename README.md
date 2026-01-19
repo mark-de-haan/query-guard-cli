@@ -13,6 +13,10 @@ Stop guessing who spent the budget. **Know.**
 
 ---
 
+![demo](demo.gif)
+
+---
+
 ## ⚡ Features
 
 * **🌍 Global Auto-Discovery**: Automatically scans your project to find active regions and queries them in parallel. No more guessing if data is in `us-central1` or `europe-west3`.
